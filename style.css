@@ -1,0 +1,78 @@
+
+/* common styles */
+.img-container{
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* hero section */
+#hero-section{
+    background-image: url(./assets/images/hero_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.showcase-img-container{
+    height: 500px;
+}
+
+/* feature section */
+.features-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.feature img{
+    height: 80px;
+    width: 80px;
+}
+
+.feature h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.feature-img{
+    width: 300px;
+}
+
+/* pricing section */
+.pricing {
+    text-align: center;
+}
+
+/* testimonials section*/
+#testimonials{
+    min-height: 420px;
+}
+
+.carousel-item .card{
+    width: 50% !important;
+}
+/* contact section */
+#contact{
+    background-image: url("./assets/images/Polygon\ Luminary.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact .container{
+    min-height: 400px;
+}
+
+@media (max-width: 575.98px) { 
+    .showcase-img-container{
+        margin-top: 24px;
+        height: 300px;
+    }
+
+    .carousel-item .card{
+        width: 80% !important;
+    }
+}
